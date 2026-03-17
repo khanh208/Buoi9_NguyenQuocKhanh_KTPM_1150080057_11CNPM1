@@ -1,4 +1,7 @@
-framework\base\BaseTest.class
+tests\bai3\ExcelLoginSmokeTest.class
 tests\CartTest.class
+tests\bai3\ExcelLoginRegressionTest.class
+framework\base\BaseTest.class
+tests\bai3\AbstractExcelLoginTest.class
 tests\DemoFailTest.class
 tests\LoginTest.class

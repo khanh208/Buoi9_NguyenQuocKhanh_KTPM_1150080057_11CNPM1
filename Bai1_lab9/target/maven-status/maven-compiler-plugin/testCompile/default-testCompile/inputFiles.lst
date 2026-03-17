@@ -1,4 +1,7 @@
 E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\framework\base\BaseTest.java
-E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\CartTest.java
-E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\DemoFailTest.java
-E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\LoginTest.java
+E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\bai1\DemoFailTest.java
+E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\bai2\CartTest.java
+E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\bai2\LoginTest.java
+E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\bai3\AbstractExcelLoginTest.java
+E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\bai3\ExcelLoginRegressionTest.java
+E:\NguyenQuocKhanh\tester\lab9-framework\Bai1_lab9\src\test\java\tests\bai3\ExcelLoginSmokeTest.java

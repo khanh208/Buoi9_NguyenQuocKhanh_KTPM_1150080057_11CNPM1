@@ -47,8 +47,17 @@ public abstract class BaseTest {
     public void tearDown(ITestResult result) {
         try {
             if (result.getStatus() == ITestResult.FAILURE) {
-                captureScreenshot(result.getName());
-            }
+    String displayName = result.getName();
+
+    if (result.getInstance() instanceof org.testng.ITest iTest) {
+        String customName = iTest.getTestName();
+        if (customName != null && !customName.isBlank()) {
+            displayName = customName;
+        }
+    }
+
+    captureScreenshot(displayName);
+}
         } finally {
             WebDriver driver = getDriver();
             if (driver != null) {

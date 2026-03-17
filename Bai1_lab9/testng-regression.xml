@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab9-Bai3-Regression" parallel="methods" thread-count="3">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="dev"/>
+
+    <test name="Bai3-Regression">
+        <classes>
+            <class name="tests.bai3.ExcelLoginRegressionTest"/>
+        </classes>
+    </test>
+
+</suite>
