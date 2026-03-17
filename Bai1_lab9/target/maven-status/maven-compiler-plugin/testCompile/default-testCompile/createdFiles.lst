@@ -1,0 +1,4 @@
+framework\base\BaseTest.class
+tests\CartTest.class
+tests\DemoFailTest.class
+tests\LoginTest.class

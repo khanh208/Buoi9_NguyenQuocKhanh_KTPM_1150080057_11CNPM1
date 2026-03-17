@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab9Suite" parallel="methods" thread-count="3">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="dev"/>
+
+    <test name="BaseTestParallelCheck">
+        <classes>
+            <class name="tests.DemoFailTest"/>
+        </classes>
+    </test>
+
+</suite>
